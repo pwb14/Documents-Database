@@ -1,0 +1,78 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	margin:0 0 .5em 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#wrapper {
+	overflow: hidden;
+	position:relative;
+	margin: auto;
+	height: 75%;
+
+}
+
+#docList {
+	width: 30%;
+	float: left;
+}
+	#docList table {
+		border-collapse:separate;
+		border-spacing:1px;
+		background:#CCC;
+	}
+		#docList table th {
+			background:#EEE;
+			font-weight:600;
+			padding:10px 20px;
+			text-align:center;
+		}
+		#docList table tbody {
+			padding:0; margin:0;
+			border-collapse:collapse;
+			border-spacing:0px;
+		}
+			#docList table td {
+				background:#FFF;
+				padding:5px 10px;
+				text-align:center;
+			}
+
+#docInfo {
+	
+	padding-left: 20px;
+	float: left;
+	overflow: hidden;
+	width: 65%;
+	max-height: 75%;
+	
+}
+#docPhotoId{
+	/*overflow: hidden;
+	max-height: 75%;
+	border:1px solid #CCC;*/
+}
+	#docInfo p {
+		/*padding:15px;*/
+		background:rgba(80,120,255,0.05);
+	}
+
+fieldset {
+	border:0;
+	padding:0; margin:0;
+}
+#docDesc {
+	clear: both;
+	bottom: 0;
+	width: 100%;
+}
+#textBox{
+	font-size: 150%;
+}
